@@ -1,0 +1,18 @@
+{
+    "translation": {
+        "hello": "Hi, man!",
+        "language": {
+            "menu": "Choose Language:",
+            "error": "You already have this language selected.",
+            "ru": {
+                "emoji": "🇷🇺"
+            },
+            "gb": {
+                "emoji": "🇬🇧"
+            },
+            "ua": {
+                "emoji": "🇺🇦"
+            }
+        }
+    }
+}
