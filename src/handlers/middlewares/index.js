@@ -1,3 +1,7 @@
-const i18n = require('./i18n')
+const { Composer } = require('telegraf') 
 
-module.exports = { i18n }
+const i18next = require('./i18next')
+
+module.exports = new Composer(
+  i18next
+)
