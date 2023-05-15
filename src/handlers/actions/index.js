@@ -1,3 +1,7 @@
+const { Composer } = require('telegraf') 
+
 const language = require('./language')
 
-module.exports = { language }
+module.exports = new Composer(
+  language
+)
